@@ -54,15 +54,18 @@ enableEmoji: true
 params:
   # Background image of the landing page
   # background: /images/site/background-concepts.jpg
-  # background: /images/site/NeuralNetwork1920X1080.jpg
-  background: /images/site/NN1920X1080.jpg
+  background: /images/site/NeuralNetwork1920X1080.jpg
+  # background: /images/site/neural-network-2048X1989.jpg
+  # background: /images/site/NN1920X1080.jpg
+  # background: /images/site/background-DNN.jpg
+  # background: /images/site/Pixabay-network-concepts.jpg
   # Background image of the landing page for dark theme
-  #darkBackground: /images/site/background.jpg
+  # darkBackground: /images/site/robot-hand-touching-human-hand-with-a-spark-in-between.webp
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
-    main: /images/AIDO/logo - round.jpg
+    main: /images/AIDO/LOGO-AIdo.jpg
     inverted: /images/AIDO/LOGO-AIdo.jpg
     favicon: /images/AIDO/LOGO-AIdo.jpg
 
@@ -121,7 +124,7 @@ params:
       enable: false
       services:
         disqus:
-          shortName: toha-example-site
+          # shortName: toha-example-site
         # valine:
         #   appId: HTV6askWxVo3vOxlqjjaq2hd-MsYXbMMI
         #   appKey: pVrT3C85KGIuk27t07eh6bUC
@@ -193,12 +196,12 @@ params:
       on_card: true # enables tags in post cards
 
     # Specify whether to show flag in the language selector. Default is true.
-    flags:
-      enable: true
-      # # If you want to use different country flag for a language, specify them here.
-      # flagOverwrites:
-      #   - languageCode: en
-      #     countryCode: us
+    # flags:
+    #   enable: true
+    #   # # If you want to use different country flag for a language, specify them here.
+    #   flagOverwrites:
+    #     - languageCode: en
+    #       countryCode: us
 
     # Enable this to use `embed-pdf` shortcode.
     embedpdf:

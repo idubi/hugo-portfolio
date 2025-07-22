@@ -21,23 +21,50 @@ buttons:
 
 # your projects
 projects:
-  - name: Kubernetes
+  - name: build server with monitoring
     logo: /images/sections/projects/kubernetes.png
+    image: /images/sections/projects/jenkinselastic2.webp
     role: Contributor
-    timeline: "March 2018 - Present"
-    repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+    timeline: "june 2024"
+    repo: https://gitlab.com/ido.bistry/Curl-deployment-with-Jenkins-elastic-S3 # If your project is a public repo on GitHub, then provide this link. it will show star count.
     #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-    summary: Production-Grade Container Scheduling and Management.
-    tags: ["professional", "kubernetes", "cloud"]
+    summary: build server with monitor system - ELK stack
+      - orchwestration with kubernetes
+      - monitoring with kibana elasticsearch
+      - streaming data with logstash
+      - ci/cd with jenkins
+      - build done by buildcontainer
+      - jenkins logs commited on AWS S3 and monitored by elasticsearch
 
-  - name: Tensorflow
-    logo: /images/sections/projects/tensorflow.png
-    role: Developer
-    timeline: "Jun 2018 - Present"
-    repo: https://github.com/tensorflow/tensorflow
-    #url: ""
-    summary: An Open Source Machine Learning Framework for Everyone.
-    tags: ["professional", "machine-learning"]
+    tags:
+      [
+        "professional",
+        "jenkins",
+        "kubernetes",
+        "S3",
+        "elastiksearch",
+        "kibana",
+        "logstash",
+        "ci/cd",
+      ]
+
+  - name: new york traffic tickets
+    logo: /images/sections/projects/power-bi.png
+    image: /images/sections/projects/nyc.jpg
+    role: summery project
+    timeline: "april 2025"
+    repo: https://gitlab.com/ido.bistry/NYC-TRAFFIC-REPORTS
+    summary: summery project for Data Analyst cource  <br/>
+
+      -- Achieved grade 100/100 for Data Analysis project involving SQL queries,
+      data cleaning and transformation,data insights, and data visualization. <br/>
+      -- Received exceptional feedback for analytical depth and clear recommendations
+      -- "this is an extrodinary piece of work" <br/>
+      -- "comments that reflect deep understanding of the material" <br/>
+      -- "docmentation and conclusion are of an exceptional high standards"
+      the full feedback can be seen in the repository (link above)<br/>
+
+    tags: ["academic", "data", "power-bi", "SQL", "data analysis"]
 
   - name: A sample academic paper
     role: Team Lead

@@ -1,7 +1,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
+<link rel="stylesheet" href="{{ "styles/override.scss" | relURL }}">
 {{ partial "helpers/style-bundle.html" . }}
 
 <!--================= fab-icon =========================-->
@@ -9,7 +9,7 @@
 {{ if site.Params.logo.favicon }}
   {{ $favicon := site.Params.logo.favicon }}
 
-  {{/* resize the favicon. don't resize svg because it is not supported */}}
+  {{/* resize the favicon. dont resize svg because it is not supported */}}
   {{ $favicon = resources.Get $favicon }}
   {{ if and $favicon (ne $favicon.MediaType.SubType "svg") }}
     {{ $favicon = $favicon.Resize "42x" }}

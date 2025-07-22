@@ -31,7 +31,6 @@
 {{ end }}
 {{ $authorImage := resources.Get $authorImage }}
 
-{{/* apply image processing. don't use "Fit" in svg or gif because its not supported */}}
 {{ if and $authorImage (and (ne $authorImage.MediaType.SubType "svg") ( ne $authorImage.MediaType.SubType "gif")) }}
   {{ $authorImage = $authorImage.Fit "148x148" }}
 {{ end }}
@@ -175,7 +174,7 @@
   ></div>
   <div class="container content text-center">
     <img src="{{ $authorImage.RelPermalink }}"
-      class="rounded-circle mx-auto d-block img-fluid"
+      class="rounded-circle mx-auto d-block img-fluid author-image-bordered"
       alt="Author Image"
     />
     <h1 class="greeting"> {{ $author.greeting }} {{ $name }}</h1>

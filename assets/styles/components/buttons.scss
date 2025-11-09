@@ -12,6 +12,20 @@
   }
 }
 
+.filter-button {
+  background-color: get-light-color('filter-button-bg-color') !important;
+  border-color: get-light-color('filter-button-bg-color') !important;
+  color: get-light-color('filter-button-text-color') !important;
+  @include transition();
+
+  &:hover,
+  &:focus {
+    background-color: get-light-color('accent-color') !important;
+    border-color: get-light-color('accent-color') !important;
+    @include transition();
+  }
+}
+
 .btn-info {
   background-color: get-light-color('accent-color') !important;
   color: get-light-color('text-over-accent-color') !important;
@@ -149,6 +163,18 @@ html[data-theme='dark'] {
     }
   }
 
+  .filter-button {
+    background-color: get-dark-color('filter-button-bg-color') !important;
+    border-color: get-dark-color('filter-button-bg-color') !important;
+    color: get-dark-color('filter-button-text-color') !important;
+
+    &:hover,
+    &:focus {
+      background-color: get-dark-color('accent-color') !important;
+      border-color: get-dark-color('accent-color') !important;
+    }
+  }
+
   .btn-info {
     background-color: get-dark-color('bg-card') !important;
     color: get-dark-color('text-color') !important;
@@ -215,3 +241,5 @@ html[data-theme='dark'] {
     }
   }
 }
+
+

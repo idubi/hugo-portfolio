@@ -105,19 +105,52 @@ degrees:
         - name: AWS services
     customSections: #(optional)
       - name: aws services details
-        content: "<p>
-          <table><TR><td>Lambda</td><td>EC2</td><td>S3 storage</td></tr>
-          <TR><td>IAM</td><td>Load Balancer</td><td>Auto scaling</td></tr>
-          <TR><td>Security Groups</td><td>VPC</td><td>cloud networking</td></tr>
-          <TR><td>Lambda</td><td>EC2</td><td>S3 storage</td></tr>
-          <TR><td>RDS</td><td>DynamoDB</td><td>Event bridge</td></tr>
-          <TR><td>API Gateway</td><td>AmazonMQ</td><td>SQS</td></tr>
-          <TR><td>Fargate</td><td>Beanstalk</td><td>ECS</td></tr>
-          <TR><td>CloudWatch</td><td>AWS Pipeline</td><td>AWS CodeBuild</td></tr>
-          <TR><td>ECR</td><td>ASM - Secret manager</td><td>Bedrock (genAI)</td></tr>
-          <TR><td>Route 53</td><td>Cloud Watch</td><td>.... </td></tr>
+        content: "
+          <table class='text-size-sm'>
+          <tr>
+          <td>Lambda</td>
+          <td>EC2</td>
+          <td>S3 storage</td>
+          <td>IAM</td>
+          <td>Load Balancer</td>
+          </tr>
+          <tr>
+          <td>Auto scaling</td>
+          <td>Security Groups</td>
+          <td>VPC</td>
+          <td>cloud networking</td>
+          <td>Lambda</td>
+          </tr>
+          <tr>
+          <td>EC2</td>
+          <td>S3 storage</td>
+          <td>RDS</td>
+          <td>DynamoDB</td>
+          <td>Event bridge</td>
+          </tr>
+          <tr>
+          <td>API Gateway</td>
+          <td>AmazonMQ</td>
+          <td>SQS</td>
+          <td>Fargate</td>
+          <td>Beanstalk</td>
+          </tr>
+          <tr>
+          <td>ECS</td>
+          <td>CloudWatch</td>
+          <td>AWS Pipeline</td>
+          <td>AWS CodeBuild</td>
+          <td>ECR</td>
+          </tr>
+          <tr>
+          <td>ASM - Secret manager</td>
+          <td>Bedrock (genAI)</td>
+          <td>Route 53</td>
+          <td>Cloud Watch</td>
+          <td>....</td>
+          </tr>
           </table>
-          </p>
+
           "
   - name: DevOps engineer
     icon: fa-brands fa-docker

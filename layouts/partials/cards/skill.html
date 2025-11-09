@@ -25,14 +25,15 @@
       {{ if .grade }}
           <div class="card-body text-justify pt-1 pb-1">
             <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: {{ .grade.value }}%; background-color: {{ .grade.color }};" aria-valuenow="{{ .grade.value }}" aria-valuemin="0" aria-valuemax="100">{{ .grade.value }}%</div>
+              <div class="progress-bar" role="progressbar" style="width: {{ .grade.value }}%;" aria-valuenow="{{ .grade.value }}" aria-valuemin="0" aria-valuemax="100">{{ .grade.value }}%</div>
             </div>
           </div>
       {{end}}
 
      
       <div class="card-body text-justify pt-1 pb-1">
-        <p class="card-text">{{ .summary | markdownify }}</p>
+        <p >
+        <p class="card-text text-size-sm">{{ .summary | markdownify }}</p>
       </div>
     </div>
   </a>

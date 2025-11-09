@@ -13,7 +13,7 @@
   {{ end }}
 
   <div class="container">
-    <table class="education-info-table">
+    <table class="education-info-table " >
         <tbody>
             {{ $count := len .degrees }}
             {{ range .degrees}}
@@ -46,14 +46,14 @@
                             <div class="row">
                                 <div class="col-lg-10 col-md-8">
                                     {{ if .institution.url }}
-                                        <h5><a href="{{ .institution.url }}" title="{{ .institution.name }}" target="_blank" rel="noopener">{{ .institution.name }}</a></h5>
+                                        <h4><a href="{{ .institution.url }}" title="{{ .institution.name }}" target="_blank" rel="noopener">{{ .institution.name }}</a></h4>
                                     {{ else }}
-                                        <h5>{{ .institution.name }}</h5>
+                                        <h4>{{ .institution.name }}</h4>
                                     {{ end }}
                                 </div>
                                 <div class="timeframe col-lg-2 col-md-4">{{ .timeframe }}</div>
                             </div>
-                            <h6>{{ .name }}</h6>
+                            <h5>{{ .name }}</h5>
                             {{ if .grade }}
                                 <h6><span class="text-heading">{{ .grade.scale }}: </span><span>{{ .grade.achieved }}</span> {{ i18n "out_of"}} <span>{{ .grade.outOf }}</span></h6>
                             {{ end }}
@@ -73,7 +73,7 @@
                             {{ end }}
                             {{ if .takenCourses }}
                             {{ $collapseAfter  := .takenCourses.collapseAfter | default 2 }}
-                            <div class="taken-courses">
+                            <div class="taken-courses text-size-sm">
                                 <h6 class="text-heading">{{ i18n "taken_courses"}}:</h6>
                                 {{ if .takenCourses.showGrades }}
                                 {{ $hideScale  := .takenCourses.hideScale }}
@@ -122,7 +122,7 @@
                             <div class="custom-section">
                                 {{ range .customSections }}
                                     <h6 class="text-heading">{{ .name }}: </h6>
-                                    <div class="custom-content">{{ .content | markdownify }}</div>
+                                    <div class="text-size-sm custom-content">{{ .content | markdownify }}</div>
                                 {{ end }}
                             </div>
                             {{ end }}

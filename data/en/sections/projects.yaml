@@ -16,15 +16,21 @@ buttons:
     filter: "professional"
   - name: Academic
     filter: "academic"
-  - name: Hobby
-    filter: "hobby"
+  - name: FullStack
+    filter: "fullstack"
+  - name: DevOps
+    filter: "devops"
+  - name: AI
+    filter: "ai"
+  - name: Data
+    filter: "data"
 
 # your projects
 projects:
   - name: build server with monitoring
     logo: /images/sections/projects/kubernetes.png
     image: /images/sections/projects/jenkinselastic2.webp
-    role: Contributor
+    role: DevOps developer
     timeline: "june 2024"
     repo: https://gitlab.com/ido.bistry/Curl-deployment-with-Jenkins-elastic-S3 # If your project is a public repo on GitHub, then provide this link. it will show star count.
     #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
@@ -48,7 +54,7 @@ projects:
         "ci/cd",
       ]
 
-  - name: new york traffic tickets
+  - name: NEW-YORK traffic tickets
     logo: /images/sections/projects/power-bi.png
     image: /images/sections/projects/nyc.jpg
     role: summery project
@@ -66,27 +72,233 @@ projects:
 
     tags: ["academic", "data", "power-bi", "SQL", "data analysis"]
 
-  - name: A sample academic paper
-    role: Team Lead
-    timeline: "Jan 2017 - Nov 2017"
-    url: "https://www.example.com"
-    summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-    tags: ["academic", "iot"]
+  - name: AWS - terraform to implement security group
+    logo: /images/sections/projects/aws logo.png
+    role: DevOps developer
+    timeline: "march 2024"
+    repo: "https://gitlab.com/ido.bistry/SEMPERIS-TERRAFORM"
+    image: /images/sections/projects/aws draw.jpg
+    summary: terraform to implement env installation pipeline
+      for customer dev team .
+    tags:
+      ["academic", "AWS", "DevOps", "terraform", "security group", "pipeline"]
 
-  - name: Nocode
-    logo: /images/sections/projects/no-code.png
-    role: Nothing
-    timeline: "Oct 2019 - Dec 2019"
-    repo: https://github.com/kelseyhightower/nocode
-    #url: ""
+  - name: Leet-Code Practice
+    role: academic - Python & JavaScript & Java
+    timeline: "may 2023 - march 2024"
+    repo: https://gitlab.com/ido.bistry/leetcode-practice
+    logo: /images/sections/projects/leetcode.png
     summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-    tags: ["hobby", "fun"]
+    tags: ["academic", "fun", "leetcode", "Python", "javascript", "java"]
 
-  - name: Toha
-    logo: /images/sections/projects/toha.png
-    image: /images/sections/projects/toha_website.png
-    role: Owner
-    timeline: "Jun 2019 - Present"
-    repo: https://github.com/hossainemruz/toha
-    summary: A Hugo theme for personal portfolio.
-    tags: ["hobby", "hugo", "theme", "professional"]
+  - name: OAuth
+    role: FullStack - NextJs & nodejs
+    timeline: "may 2024"
+    repo: https://gitlab.com/ido.bistry/auth-app
+    logo: /images/sections/projects/nextjs.jpg
+    image: /images/sections/projects/oauth-overview.png.webp
+    summary: an OAuth application with NextJs prisma TypeScript
+      - Implemented OAuth 2.0 authorization server using Next.js and Prisma
+      - Integrated with Google, Facebook, and GitHub for user authentication
+      - Developed secure token management and session handling
+      - poc to implementation in [TRUE](https://true.org.il)
+    tags:
+      [
+        "professional",
+        "typescript",
+        "nextjs",
+        "nodejs",
+        "prisma",
+        "react",
+        "OAuth",
+      ]
+
+  - name: PetFinderAPI - an app to find your next pet
+    role: FullStack - Java
+    timeline: "may 2023"
+    repo: https://gitlab.com/ido.bistry/PetFinderAPI
+    logo: /images/sections/projects/java-logo-png.png
+    image: /images/sections/projects/petfinder.jpg
+    summary: an OAuth application with NextJs prisma TypeScript
+      - Implemented Java MVC Application with Spring Boot and Redis
+      - Developed RESTful API for pet adoption services
+      - Implemented ETL pipeline for fetch cats from site
+      - Integrated Key Encryption for remote site authentication
+      - Utilized Spring MVC for building the web server , react clien in preceding project
+    tags:
+      [
+        "academic",
+        "JAVA",
+        "Spring Boot",
+        "REDIS",
+        "ETL pipeline",
+        "Key Encryption - remote site authentication",
+        "Spring MVC",
+      ]
+
+  - name: PetFinderUI - an app to find your next pet
+    role: FullStack - React
+    timeline: "may 2023"
+    repo: https://gitlab.com/ido.bistry/PetFinderUI
+    logo: /images/sections/projects/react.png
+    image: /images/sections/projects/petfinder.jpg
+    summary: a web application written in React to find your next pet
+      - using PetFinderAPI as backend (Java application),
+      - implemented user-friendly interface for pet adoption search
+      - using react-axios for state API calls
+    tags: ["academic", "react", "javascript", "axios"]
+
+  - name: Dynamic Dropdown with C# Backend
+    role: FullStack - C# & Vanilla JS
+    timeline: "may 2023"
+    repo: https://gitlab.com/ido.bistry/custom-dynamic-search-drop-down
+    logo: /images/sections/skills/csharp.png
+    image: /images/sections/projects/cisies-search.jpg
+    summary: a server built with C# and redis to provide dynamic dropdowns
+      with cache for fast data retrieval
+      used Redis for caching and fast data retrieval
+      integrated with a frontend that implaement a dropdown
+      list - as an academic purpose to POC creation of
+      dropdown using events and hooks without pre defined component
+    tags: ["academic", "C#", "vanila javascript", "axios", "redis"]
+
+  - name: SEMPERIS-SUMMARY-PROJECT
+    role: devops - academic
+    timeline: "may 2023"
+    repo: https://gitlab.com/ido.bistry/SEMPERIS-SUMMARY-PROJECT
+    logo: /images/sections/projects/semperisliza-jenkins_k8.png
+    summary: deployment of a project using terraform
+      - used AWS services such as EC2, S3, and RDS to deploy the project
+      - created a secure and scalable infrastructure for the project
+      - integrated with Jenkins for continuous integration and deployment
+      - flow running and monitored inside kubernetes
+    tags:
+      [
+        "academic",
+        "kubernetes",
+        "jenkins",
+        "AWS",
+        "Python",
+        "devops",
+        "terraform",
+        "security group",
+        "pipeline",
+      ]
+
+  - name: TRUE-ORG
+    role: BackOffice Developer, Devops, AI Consultant
+    timeline: "june 2025 - Present"
+    repo: https://true.org.il
+    logo: /images/sections/experiences/true-logo.jpg
+    summary: an entrepreneur organization that came
+      to put an end to fake news and misinformation
+      aims to provide a platform for fact-checking and
+      promoting accurate information.
+      - worked as BackOffice Developer, Devops, AI Consultant
+    tags:
+      [
+        "professional",
+        "aws",
+        "fullstack",
+        "Python (Django)",
+        "DevOps",
+        "AI - API , RAG (.. mcp to come)",
+        "ai",
+      ]
+
+  - name: HygearFit (@code-lovers)
+    role: FullStack Developer
+    timeline: "march 2021 - June 2023"
+    repo: https://hygearfit.com/
+    icon: /images/sections/experiences/code-lovers-icon.png
+    image: /images/sections/projects/hygearFit.jpg
+    summary: a welness application for workout from home
+      - worked as FullStack Developer
+      - developed a web Dashboard with react
+      - backend Dev node js, implemented RESTful APIs for data management
+      - mongoDB and google big query for data storage,
+      - implemented Redis for cache management and more
+      - integrated with third-party services for payment processing (IAP)
+      - integrated with CRM and marketing tools for user engagement.
+      - used AWS services such as S3 for file storage and EC2 for hosting, pub sub for
+      - real-time communication with google IAP and other services
+      - implemented CI/CD pipelines for automated deployment and testing
+    tags: ["professional", "aws", "GCP/Apple IAP", "fullstack"]
+
+  - name: AIDO - Adaptive Learning
+    role: teacher - enterpraneur
+    timeline: "may 2025 - present"
+    repo: https://ai-ido/
+    icon: /images/sections/projects/LOGO-AIdo.jpg
+    image: /images/sections/projects/LOGO-AIdo.jpg
+    summary:
+      lately I become an enterprenure - decided to bring AI knowledge to youth
+      - the goal is to create a platform to teach AI technologies adn methods to youth in the preriferial - in the OTEF
+      I noticed that there is not enough AI knowledge, not in the schools nor arround the community,
+      so I decided to take action and create a platform that will provide this knowledg
+      I intend to teach and train youth, at evenings or at schools in a fun and interactive way, using
+      AI technologies , IOT and more.
+      - the cources will focus on both theoretical and practical aspects of AI
+    tags: ["ai", "technologies", "devops", fullstack, "teacher", "enterpraneur"]
+
+  - name: CNN - coins counter - money estimator
+    role: academic
+    timeline: "october2024"
+    repo: "https://www.linkedin.com/feed/update/urn:li:activity:7238616398879461376/"
+    icon:
+    image: /images/sections/projects/coins-detection.jpeg
+    summary:
+      last couple of month I am starting a new project called AIDO - Adaptive Learning
+      - the goal is to create a platform to bring AI knowledge to youth at the south - in the OTEF
+      I noticed that there is not enough AI knowledge, not in the schools and not in the
+      communities, so I decided to take action and create a platform that will provide this knowledg
+      I intend to teach and train youth, at evenings or at schools in a fun and interactive way, using
+      AI technologies , IOT and more.
+      - the cources will focus on both theoretical and practical aspects of AI
+    tags: ["academic", "ai", "technologies"]
+
+  - name: vibe code
+    role: academic
+    timeline: "march 2025"
+    repo: https://gitlab.com/ido.bistry/4-in-a-row
+    icon:
+    image: /images/sections/projects/vibe-4inarow.jpg
+    summary:
+      since this is a metamorphozing world, I am keep learning and exploring new technologies
+      so just as I heard about it - my first (there are more, in different platforms) vibe code app
+      was build with [BASE44](https://app--4-connect-ai-8d7e48ac.base44.app/)
+      platform ([then moved it to local](https://gitlab.com/ido.bistry/4-in-a-row) and redeployed it in docker)
+
+    tags: ["academic", "ai", "technologies"]
+
+  - name: AIDO - JOB STRATEGIC PREPERATION
+    role: professional
+    timeline: "march 2025"
+    repo: https://chatgpt.com/g/g-6866062c88608191a54147ecb6ae7045-aido-job-strategic-preperation
+    icon:
+    image: /images/sections/projects/GPT-AIdo-code-strategic-preperation.png
+    summary:
+      during my search for a job, I decided to use AI technologies to help me
+      I created a strategic preparation for job interviews using a deep research I made online
+      taking a strategic approach and took it apart - embedding it into an AI bot
+      wrote the use casesadn created one well functioning bot
+      the bot asks for a cv , and then ask the user to paste a job description
+      then it provides a strategic preparation for the interview, including questions to ask the interviewer,
+      questions to prepare for, and more.<br/>
+      the bot is available in [chatgpt](https://chatgpt.com/g/g-6866062c88608191a54147ecb6ae7045-aido-job-strategic-preperation)
+      <h6> if you have arrived here after reading my cv - it is most likely that this cv was created by [this](https://chatgpt.com/g/g-6866062c88608191a54147ecb6ae7045-aido-job-strategic-preperation)  tool </h6>
+
+    tags: ["professional", "ai", "technologies"]
+
+  - name: AIDO - CODE RESOLVER
+    role: professional
+    timeline: "march 2025"
+    repo: https://chatgpt.com/g/g-67f25a5f764081918a7f0551f0020100-aido-code-resolver
+    icon:
+    image: /images/sections/projects/GPT-AIdo-code-resolver.png
+    summary:
+      while training for a job, I decided to use AI technologies to help me
+      I created a code resolver bot that helps to resolve code issues
+      the bot asks for problem - either a screenshot or a description
+      then it provides a solution for the problem, including code snippets and in depth explanations
+    tags: ["professional", "ai", "technologies", "coding"]

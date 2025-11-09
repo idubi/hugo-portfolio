@@ -5,8 +5,12 @@
   color: get-light-color('text-over-accent-color');
   overflow: hidden;
 
+
+
+
+
   .background {
-    height: 100%;
+    height: 00%;
     width: 100%;
     padding: 0;
     margin: 0;
@@ -14,7 +18,15 @@
     background-position: center;
     transform: scale(1.1);
     // filter: blur(5px);
-    background-size: cover;
+    // background-size: cover;
+    min-height: calc(100vh - 100px); // optional: subtract navbar height if you want exactly one screen tall
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    align-items: center;
+    justify-content: center;  
+
+
   }
 
   .arrow-center {
@@ -37,16 +49,21 @@
 
   .content {
     position: relative;
-    top: -65%;
-    height: 60%;
+    left: -17.5%;
+    top: -82%;
+    height: 45%;
+    
   }
 
   img {
     width: 148px;
     height: 148px;
     background-color: get-light-color('bg-secondary');
-    padding: 5px;
-    margin-bottom: 10px;
+    color: get-light-color('bg-primary');
+    
+    padding: 20px;
+    margin: -70px 3px 5px 45px; 
+    margin-bottom: 8px;
   }
 
   .greeting,

@@ -66,31 +66,33 @@ experiences:
       # darkLogo: /images/sections/experiences/company3.jpg
       overview: CodeLovers is a startup accelerator - support startups to achive their goals
     positions:
-      - designation: senior Full-Stack developer
+      - designation: senior BackEnd developer
         start: March 2021
         end: jan 2023
         responsibilities:
-          - <H5>Back End (80%) Front End (20%) </H5>
-            -- Node.js (express) <br/>
-            -- MongoDB, Redis, Docker , AWS , GCP <br/>
-            -- REST Api Development, Web-Hooks
-            -- Design and develop full infrastructure for Code Lovers ecosystem <br/>
-            -- Testing with jest and mocha <br/>
-            -- Design and develop translation mechanism <br/>
-            -- Design and develop cache control system <br/>
-            -- Design and develop IAP management system <br/>
-            -- AWS - EC2, S3, IAM <br/>
-            -- GCP- Big Query, pub-sub, IAP, IAM and services <br/>
-            -- Apple IAP, Google IAP <br/>
-            -- Agile Programming and Git version Control <br/>
-            -- mentoring new programmers - techical mentoring
-          - <H5> Front End (20%) </H5 >
-            -- React  <br/>
-            -- Web Dashboard and web management UI for Wellness app <br/>
-            -- Flexbox Design Concepts <br/>
-            -- Styled-Component methodology <br/>
-            -- Dashboard with Ant Design Components <br/>
-            -- RTK (redux tool kit)- state management <br/>
+          - Node.js (express) <br/>
+          - MongoDB, Redis, Docker , AWS , GCP <br/>
+          - REST Api Development, Web-Hooks
+          - Design and develop full infrastructure for Code Lovers ecosystem <br/>
+          - Testing with jest and mocha <br/>
+          - Design and develop translation mechanism <br/>
+          - Design and develop cache control system <br/>
+          - Design and develop IAP management system <br/>
+          - AWS - EC2, S3, IAM <br/>
+          - GCP- Big Query, pub-sub, IAP, IAM and services <br/>
+          - Apple IAP, Google IAP <br/>
+          - Agile Programming and Git version Control <br/>
+          - mentoring new programmers - techical mentoring
+      - designation: Front End developer
+        start: March 2021
+        end: jan 2023
+        responsibilities:
+          - React  <br/>
+          - Web Dashboard and web management UI for Wellness app <br/>
+          - Flexbox Design Concepts <br/>
+          - Styled-Component methodology <br/>
+          - Dashboard with Ant Design Components <br/>
+          - RTK (redux tool kit)- state management <br/>
   - company:
       name: Amdocs
       url: "https://www.amdocs.com/"

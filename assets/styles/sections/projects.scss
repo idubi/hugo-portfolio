@@ -1,4 +1,6 @@
+
 .projects-section {
+
   .card {
     .card-header {
       background-color: get-light-color('bg-card');
@@ -38,6 +40,8 @@
     .badge {
       margin-left: 0.1em;
       margin-right: 0.1em;
+      background-color: get-light-color('background-badge-color');
+      color : get-light-color('badge-color');
     }
   }
 
@@ -96,5 +100,13 @@ html[data-theme='dark'] {
         }
       }
     }
+    .project-card-footer {
+      .badge {
+        background-color: get-dark-color('background-badge-color');
+        color : get-dark-color('badge-color');
+      }
+    }
   }
 }
+
+

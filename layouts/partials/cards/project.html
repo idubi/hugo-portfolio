@@ -50,13 +50,13 @@
         </div>
       </a>
       <div class="card-body text-justify pt-1 pb-1">
-        <p>{{ .summary | markdownify }}</p>
+        <p class="text-size-sm">{{ .summary | markdownify }}</p>
         <!-- Display project card technology tags -->
         <div class="project-card-footer">
           {{ if .tags }}
             <div class="project-tags-holder">
               {{ range $index,$tag:= .tags }}
-                  <span class="badge btn-info">
+                  <span class="badge">
                     {{ $tag }}
                   </span>
               {{ end }}

@@ -1,0 +1,9 @@
+.progress-bar {
+  background-color: get-light-color('progress-bar-color');
+}
+
+html[data-theme='dark'] {
+  .progress-bar {
+    background-color: get-dark-color('progress-bar-color');
+  }
+}

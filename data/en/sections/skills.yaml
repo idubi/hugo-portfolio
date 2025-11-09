@@ -31,14 +31,13 @@ skills:
     summary:
       I am the founder of a new enterpreneur, focusing in bringing AI knowledge
       to the youth of the OTEF (עוטף עזה והנגב המערבי). <br/>
-      - this project is endorsed by the <H5>תקומה, החברה למתנסי"ם  הקרן לעידוד יוזמות בחינוך  וארגון הביתה</H5>,
       - I aim to teach them the basics of AI and how to use it in their daily lives.
       using python programming to train model with symulators
       the model then will be deployed on robots to perform tasks.
+      - this project is endorsed by the <H6>תקומה, החברה למתנסי"ם  הקרן לעידוד יוזמות בחינוך  וארגון הביתה</H6>,
     categories: ["all", "ai-data-science", "sw-development"]
     url: "https://www.hinuch-mehaber.org/"
     grade:
-      color: black
       value: 90
 
   - name: AI LLM - Agents and bots
@@ -52,7 +51,6 @@ skills:
     categories: ["all", "ai-data-science", "sw-development"]
     url: "https://chatgpt.com/g/g-6866062c88608191a54147ecb6ae7045-aido-job-strategic-preperation?model=gpt-4o"
     grade:
-      color: black
       value: 90
 
   - name: Deep Learning LLM - RAG
@@ -64,7 +62,6 @@ skills:
     categories: ["all", "ai-data-science", "sw-development"]
     url: "https://true.org.il"
     grade:
-      color: black
       value: 85
 
   - name: Deep Learning - CNN
@@ -78,7 +75,6 @@ skills:
     categories: ["all", "ai-data-science", "sw-development"]
     url: "https://www.linkedin.com/feed/update/urn:li:activity:7238616398879461376/"
     grade:
-      color: black
       value: 85
 
   - name: vibe coding & context engineering
@@ -97,7 +93,6 @@ skills:
     categories: ["all", "sw-development", "ai-data-science"]
     url: "https://app--4-connect-ai-8d7e48ac.base44.app"
     grade:
-      color: black
       value: 95
 
   - name: AI Forums - advocating AI and Data Science
@@ -110,7 +105,6 @@ skills:
     categories: ["all", "ai-data-science"]
     url: "https://www.skool.com/@ido-bistry-8164?g=ai-life-club-9083"
     grade:
-      color: black
       value: 95
 
   # ------------------------------------------------------------------------------
@@ -121,7 +115,6 @@ skills:
     categories: ["all", "devops"]
     url: "https://dev.to/idubi/"
     grade:
-      color: black
       value: 85
 
   - name: Python
@@ -138,7 +131,6 @@ skills:
     categories: ["all", "sw-development", "ai-data-science"]
     url: "https://gitlab.com/ido.bistry/WorldOfGame"
     grade:
-      color: black
       value: 90
 
   - name: AWS
@@ -146,7 +138,7 @@ skills:
     summary:
       AWS DevOps Engineer and a BackEnd developer - I used and still using
       many AWS services and architectures
-      <table><TR><td>Lambda</td><td>EC2</td><td>S3 storage</td></tr>
+      <table class='text-size-sm'><TR><td>Lambda</td><td>EC2</td><td>S3 storage</td></tr>
       <TR><td>RDS</td><td>DynamoDB</td><td>Event bridge</td></tr>
       <TR><td>API Gateway</td><td>AmazonMQ</td><td>SQS</td></tr>
       <TR><td>Fargate</td><td>Beanstalk</td><td>ECS</td></tr>
@@ -156,7 +148,6 @@ skills:
     categories: ["all", "sw-development", "devops"]
     url: "https://dev.to/idubi/40-days-of-k8s-cka-challenge-0340-a8k"
     grade:
-      color: black
       value: 85
 
   - name: Docker
@@ -169,7 +160,6 @@ skills:
     categories: ["all", "sw-development", "devops"]
     url: "https://dev.to/idubi/40-days-of-k8s-cka-challenge-0340-a8k"
     grade:
-      color: black
       value: 95
 
   - name: CI/CD (Jenkins and GitHub Actions)
@@ -178,7 +168,6 @@ skills:
       automated testing and deployment pipelines in true.org.il
     categories: ["all", "devops"]
     grade:
-      color: black
       value: 95
     url: "https://gitlab.com/ido.bistry/Curl-deployment-with-Jenkins-elastic-S3"
 
@@ -191,7 +180,6 @@ skills:
       I have experience in using various Linux distributions, including Ubuntu, kali , mint and more.
     categories: ["all", "devops"]
     grade:
-      color: black
       value: 90
 
   - name: Git
@@ -209,7 +197,6 @@ skills:
     categories: ["all", "devops"]
     url: "https://gitlab.com/ido.bistry/"
     grade:
-      color: black
       value: 95
 
   - name: SQL (oracle, MS-SQLServer, PostgreSQL, MySQL, BigQuery)
@@ -226,7 +213,6 @@ skills:
     categories: ["all", "data", "sw-development"]
     url: "files/certificates/oracle dba.jpg"
     grade:
-      color: black
       value: 95
 
   - name: NoSQL (MongoDB, Redis, Cassandra, DynamoDB,Neo4j)
@@ -243,7 +229,6 @@ skills:
     categories: ["all", "data", "sw-development"]
     url: "https://gitlab.com/ido.bistry/WorldOfGame"
     grade:
-      color: black
       value: 80
 
   - name: HELM
@@ -252,7 +237,6 @@ skills:
     categories: ["all", "devopst"]
     url: "https://gitlab.com/ido.bistry/Curl-deployment-with-Jenkins-elastic-S3/-/blob/main/starter-kit/1.jenkins.sh?ref_type=heads"
     grade:
-      color: black
       value: 80
 
   - name: Terraform (IAC)
@@ -261,7 +245,6 @@ skills:
     categories: ["all", "sw-development", "devops"]
     url: "https://gitlab.com/ido.bistry/SEMPERIS-TERRAFORM"
     grade:
-      color: black
       value: 90
 
   - name: Vagrant/Ansible (IAC)
@@ -283,7 +266,6 @@ skills:
     categories: ["all", "sw-development"]
     url: "https://codelovers.com/#projects"
     grade:
-      color: black
       value: 90
 
   - name: React
@@ -295,7 +277,6 @@ skills:
     categories: ["all", "sw-development"]
     url: "http://gitlab.com/ido.bistry/auth-app"
     grade:
-      color: black
       value: 75
 
   - name: Power BI
@@ -308,7 +289,6 @@ skills:
     categories: ["all", "data"]
     url: "https://gitlab.com/ido.bistry/NYC-TRAFFIC-REPORTS"
     grade:
-      color: black
       value: 90
 
   - name: JAVA
@@ -317,7 +297,6 @@ skills:
     categories: ["all", "sw-development"]
     url: "https://gitlab.com/ido.bistry/PetFinderAPI"
     grade:
-      color: black
       value: 75
 
   - name: C#
@@ -326,7 +305,6 @@ skills:
     categories: ["all", "sw-development"]
     url: "https://gitlab.com/ido.bistry/custom-dynamic-search-drop-down"
     grade:
-      color: black
       value: 70
 
   - name: kafka
@@ -335,7 +313,6 @@ skills:
     categories: ["all", "sw-development"]
     url: ""
     grade:
-      color: black
       value: 80
 
   - name: redis
@@ -344,7 +321,6 @@ skills:
     categories: ["all", "sw-development"]
     url: "https://gitlab.com/ido.bistry/custom-dynamic-search-drop-down"
     grade:
-      color: black
       value: 90
 
   - name: Delphi
@@ -358,5 +334,4 @@ skills:
     categories: ["all", "sw-development"]
     url: "https://www.embarcadero.com/products/delphi"
     grade:
-      color: black
       value: 95

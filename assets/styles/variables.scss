@@ -23,16 +23,18 @@ $box-shadow: 0px 8px 56px rgba(15, 80, 100, 0.16);
 // themes
 $themes: (
   'light': (
+    'background-badge-color': #0891b2,
+    'badge-color': #fff,
     // cyan 600
     'accent-color': #0891b2,
     // cyan 500
     'hover-over-accent-color': #06b6d4,
     // zinc 200
-    'text-over-accent-color': #e4e4e7,
+    'text-over-accent-color': #000,
     // slate 50
     'bg-primary': #f8fafc,
     // slate 900
-    'bg-primary-inverse': #0f172a,
+    'bg-primary-inverse': hsl(220, 10%, 94%),
     // slate 200
     'bg-secondary': #e2e8f0,
     'bg-card': #fff,
@@ -41,6 +43,7 @@ $themes: (
     // slate 700
     'text-color': #1d1e1f,
     // slate 300
+
     'inverse-text-color': #1d1e1f,
     // slate 500
     'muted-text-color': #64748b,
@@ -48,10 +51,16 @@ $themes: (
     'inline-code-color': #dc2626,
     // amber 200
     'highlight-color': #fde68a,
+    'progress-bar-color': #087c17,
     // slate 900
     'footer-color': #0f172a,
+    'filter-button-bg-color': #e2e8f0,
+    'filter-button-text-color': #1d1e1f,
   ),
   'dark': (
+    'background-badge-color': #e4e4e7,
+    'badge-color': #212529,
+
     // cyan 600
     'accent-color': #0891b2,
     // cyan 500
@@ -78,10 +87,35 @@ $themes: (
     'inline-code-color': #dc2626,
     // amber 200
     'highlight-color': #fde68a,
+    'progress-bar-color': #9dbe81,
     // slate 900
     'footer-color': #0f172a,
+    'filter-button-bg-color': #1f2937,
+    'filter-button-text-color': #e4e4e7,
   ),
 );
+
+// $filters: (
+//   'skills': (
+//     'all': 'all',
+//     'sw-development': 'sw-development',
+//     'ai-data-science': 'ai-data-science',
+//     'data': 'data',
+//     'devops': 'devops',
+//   ),
+//   'projects': (
+//     'all': 'all',
+//     'professional': 'professional',
+//     'academic': 'academic',
+//     'hobby': 'hobby',
+//   ),
+//   'publications': (
+//     'all': 'all',
+//     'machinelearning': 'machinelearning',
+//     'image-processing': 'image-processing',
+//     'security': 'security',
+//   ),
+// );
 
 $brand-colors: (
   'facebook': #3b5998,

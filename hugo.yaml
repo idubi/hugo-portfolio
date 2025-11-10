@@ -52,14 +52,16 @@ enableEmoji: true
 
 # Site parameters
 params:
-  # Background image of the landing page
-  background: /images/site/background-concepts.jpg
+  # background image of the landing page
+  # -------------  LIGHT ---------------
+  # background: /images/site/background-concepts.jpg
   # background: /images/site/artificaial-neural-network-colorful-2.png
   # background: /images/site/purple-neural-network.png
-  # background: /images/site/NN1920X1080.jpg
+  #background: /images/site/ML code desktop.png
+  background: /images/site/NN1920X1080.jpg
+  # -------------  DARK ---------------
   # darkBackground: /images/site/NNRedish1920X1080.jpg
   # darkBackground: /images/site/background-DNN.jpg
-  # background: /images/site/artificaial-neural-network-colorful-2.png
   darkBackground: /images/site/ML code desktop6.png
 
   # background: /images/site/Pixabay-network-concepts.jpg

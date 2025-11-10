@@ -29,9 +29,7 @@ This sample post tests the followings:
 
 {{< vs >}}
 
-### Tweet Sample replaced with x 
-
-{{< x user="SanDiegoZoo" id="1453110110599868418" >}}
+### Tweet Sample
 
 {{< vs >}}
 

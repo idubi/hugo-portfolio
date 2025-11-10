@@ -81,9 +81,9 @@ skills:
     logo: /images/sections/skills/vibe-code.png
     summary:
       I am a vibe coder, I use my intuition and experience to write code that works.
-      - I use tools like BASE44 <br/>
-      - to write mopkup frontends<br/>
-      - I use gemini-cli , copilot and windsurf to write code that is relevant and useful.<br/>
+      - I use tools like BASE44, Lovable and Replit to write mopkup frontends<br/>
+      - I use Gemini-CLI , Claude-Code and OpeAI Codex to vibe code with agents inline,
+      and using copilot and windsurf to write code in pair-programming mode that is relevant and useful.<br/>
       - I embed context engineering techniques to ensure that the code I write is relevant and useful.<br/>
       - I use specific models in specific stages of development
       saving expensive complex pro models on specific development tasks

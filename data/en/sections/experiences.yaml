@@ -11,6 +11,45 @@ section:
 # Your experiences
 experiences:
   - company:
+      name: AIDO - AI Adaptive Learning by Ido.
+      url: "https://ai-ido.com/"
+      location: Israel south - Zikim
+      logo: /images/sections/projects/לוגו -  AIdo.jpg
+      # Can optionally show a different logo for dark theme
+      # darkLogo: /images/sections/experiences/company1.jpg
+      # company overview
+      overview: A new chapter began for me after October 7th <hr/>
+        <p> It was a time of uncertainty, but also of <b> awakening </b>. <br/>
+        In the heart of chaos - I witnessed the explosive rise of <b><U>AI</U></b>.  <br/>
+        </p>
+        I felt the growing gap between innovation and the communities I came from.
+        Then I decided to focus my efforts on AI.
+        and use it to make a difference.
+
+        I mastered the basics of AI, I studied AI Models Eng. at Google@Reichman
+        and then decided to start a new chapter in my life.
+
+    positions:
+      - designation: Founder, Educator, Context Writing , Self-Emloyed
+        start: march 2025
+
+        # don't provide end date if you are currently working there. It will be replaced by "Present"
+        # give some points about what was your responsibilities at the company.
+
+        responsibilities:
+          - <b>Educator of several AI Programs at AIDO </b> <br/>
+            -- <u>Reinfocement learning cource</u> - programming Robots with Python using AI models <br/>
+            -- <u>LLM  cource for children </u> - Strategic use of LLM tools to sharpen Learning skills
+          - <b>Context Writing </b> <br/>
+            -- <u>developing on-going AI cources</u> for youth - both for school (GEFEN)
+            and for excelence classes
+          - attending education hand in hand with several local excelence centers - to develop <b>AI programs</b> for local communities
+
+        vision: I BELIVE IN ACADEMIC EQUALITY FOR THE PERIFERAL COMMUNITIES IN ISRAEL
+        mission: TO GAP EBETWEEN INNOVATION AND COMMUNITIES AT THE SOUTH
+        slogen: I see the technological strength in the education matter
+
+  - company:
       name: TRUE ORG IL.
       url: "https://www.true.org.il/"
       location: remote / Hertzelia

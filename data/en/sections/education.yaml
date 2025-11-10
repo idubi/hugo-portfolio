@@ -51,10 +51,8 @@ degrees:
     customSections: #(optional)
       - name: summery project
         content: "* <p> traffic violance analisys in new-york city<hr/>
-
           grade : 100 <br/>
           project review:
-
           <image src='https://gitlab.com/ido.bistry/NYC-TRAFFIC-REPORTS/-/raw/main/images/grade.png' height=400 >
           </p>
           "
@@ -219,11 +217,3 @@ degrees:
       logo: /images/sections/education/uni-ta.png
     takenCourses: #(optional)
       # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-      showGrades: true
-      collapseAfter: 1
-      courses:
-        - name: 2 years practical engineering
-          grade: #(optional)
-          scale: GPA
-          achieved: 96 (honors)
-          outOf: 100

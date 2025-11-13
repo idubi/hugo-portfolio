@@ -1,4 +1,4 @@
-FROM hugomods/hugo:debian-nightly-non-root AS builder
+FROM hugomods/hugo:debian-nightly-non-root
 
 WORKDIR /src
 COPY . .
@@ -28,13 +28,8 @@ RUN npm install \
     mark.js \
     filterizr
 
-# build the site
-RUN hugo --minify
-
 USER hugo
 
-# --- production image ---
-FROM nginx:alpine
-COPY --from=builder /src/public /usr/share/nginx/html
-EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+EXPOSE 1313
+
+CMD ["hugo", "server", "--bind=0.0.0.0", "--buildDrafts"]

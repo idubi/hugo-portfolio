@@ -2,7 +2,7 @@ services:
   hugo:
     build: .
     ports:
-      - "1313:1313"
+      - "80:1313"
     environment:
       - HUGO_MODULECACHE=/src/.hugo_cache
     volumes:

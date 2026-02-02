@@ -1,8 +1,7 @@
-FROM hugomods/hugo:debian-nightly-non-root
+FROM klakegg/hugo:0.111.3-ext-ubuntu-onbuild   
 
 WORKDIR /src
 COPY . .
-
 # install Go + Node only for the build stage
 USER root
 RUN apt-get update && \
@@ -14,7 +13,7 @@ RUN apt-get update && \
 RUN hugo mod clean && hugo mod get -u && hugo mod tidy
 
 # install npm deps required by Toha (bootstrap, fontawesome, etc.)
-RUN npm install \
+RUN npm install \ 
     bootstrap \
     @fortawesome/fontawesome-free \
     feather-icons \
@@ -30,6 +29,7 @@ RUN npm install \
 
 USER hugo
 
-EXPOSE 1313
+EXPOSE 37219
 
-CMD ["hugo", "server", "--bind=0.0.0.0", "--buildDrafts"]
+CMD ["hugo", "server", "-w","--bind=0.0.0.0", "--buildDrafts"]
+# CMD ["hugo", "server", "--bind=0.0.0.0", "--buildDrafts"]

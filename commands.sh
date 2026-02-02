@@ -38,3 +38,13 @@ npm install
 c. Run the site
 
 hugo server -w
+
+
+docker build -t hugo-aido-portfolio .
+
+docker stop hugo
+docker rm hugo
+docker rmi hugo-aido-portfolio 
+docker run -d -p 1313:37219 --name hugo hugo-aido-portfolio
+
+ 
